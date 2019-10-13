@@ -2,6 +2,7 @@ const dataURL = "https://api.myjson.com/bins/jcmhn";
 
 function handleButton() {
 	$.getJSON(dataURL, handleData);
+	$("form").hide();
 }
 
 function handleData(data) {
